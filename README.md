@@ -21,4 +21,4 @@ Jedna grana - jedan dvočas!
 ---
 
 <font color="green">Na masteru ništa novo... </font></br>
-<font color="yellow">Happy coding!</font>
+Happy coding! 🚀
