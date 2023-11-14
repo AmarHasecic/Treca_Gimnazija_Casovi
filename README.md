@@ -2,7 +2,7 @@
 
 
 ### Treća gimnazija Sarajevo
-### Školska 2023/2024. godina
+#### Školska 2023/2024. godina
 
 ---
 
