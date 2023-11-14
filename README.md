@@ -1,8 +1,8 @@
 # RAZVOJ MOBILNIH APLIKACIJA
 
 
-## Treća gimnazija Sarajevo
-## Školska 2023/2024. godina
+### Treća gimnazija Sarajevo
+### Školska 2023/2024. godina
 
 ---
 
@@ -15,6 +15,6 @@ Jedna grana - jedan dvočas!
 
 ---
 
-Na masteru ništa novo...
+Na masteru ništa novo... </br>
 Happy coding!
 
