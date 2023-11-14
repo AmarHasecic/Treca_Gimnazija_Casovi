@@ -9,7 +9,7 @@
 
 Dragi učenici,
 
-Na ovom repozitoriju se nalazi programski kod koji je obrađen na časovima i rješenja svih vježbi. Za sva pitanja se možete javiti na Teams grupi ili direktno na moj e-mail. 
+Na ovom repozitoriju se nalazi programski kod koji je obrađen na časovima i rješenja svih vježbi. Za sva pitanja se možete javiti na Teams grupu ili direktno na moj e-mail. 
 </br></br> 📧  &nbsp; [amar.hasecic@treca-gimnazija.edu.ba](mailto:amar.hasecic@treca-gimnazija.edu.ba)
 
 </br></br> 
@@ -20,6 +20,5 @@ Jedna grana - jedan dvočas!
 
 ---
 
-Na masteru ništa novo... </br>
-Happy coding!
-
+<font color="green">Na masteru ništa novo... </font></br>
+<font color="yellow">Happy coding!</font>
