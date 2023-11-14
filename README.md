@@ -9,7 +9,8 @@
 
 Dragi učenici,
 
-Na ovom repozitoriju se nalazi programski kod koji je obrađen na časovima i rješenja svih vježbi. Za sva pitanja se možete javiti na Teams grupi ili direktno na moj e-mail: [amar.hasecic@treca-gimnazija.edu.ba](mailto:amar.hasecic@treca-gimnazija.edu.ba).
+Na ovom repozitoriju se nalazi programski kod koji je obrađen na časovima i rješenja svih vježbi. Za sva pitanja se možete javiti na Teams grupi ili direktno na moj e-mail. </br>
+ 📧 [amar.hasecic@treca-gimnazija.edu.ba](mailto:amar.hasecic@treca-gimnazija.edu.ba). [amar.hasecic@treca-gimnazija.edu.ba](mailto:amar.hasecic@treca-gimnazija.edu.ba).
 
 Jedna grana - jedan dvočas!
 
