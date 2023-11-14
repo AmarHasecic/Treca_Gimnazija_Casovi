@@ -1,4 +1,4 @@
-# RAZVOJ MOBILNIH APLIKACIJA
+# Razvoj mobilnih aplikacija
 
 
 ### Treća gimnazija Sarajevo
