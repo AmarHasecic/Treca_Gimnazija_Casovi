@@ -2,6 +2,7 @@ package ba.edu.trecagimnazija.trecagimnazijacasovi.Ekrani
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
@@ -38,20 +39,18 @@ fun IzrekeEkran() {
 
     Box(
         modifier = Modifier.background(Color(0xFFA3C280)),
-
+        contentAlignment = Alignment.Center
         ) {
 
+    Column {
         Text(
             text = "Citati",
             fontSize = 30.sp,
             color = Color.DarkGray,
-            modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 240.dp)
-                .align(Alignment.TopStart)
+            modifier = Modifier.padding(start = 20.dp, bottom = 25.dp)
         )
 
-        LazyRow(
-            modifier = Modifier.align(Alignment.Center)
-        ) {
+        LazyRow{
 
             for (i in 0 until izreke.size) {
                 item {
@@ -60,7 +59,7 @@ fun IzrekeEkran() {
                             .width(screenWidthInDp)
                             .height(150.dp)
                             .padding(horizontal = 25.dp)
-                            .background(color = Color(0x17000000))
+                            .background(color = Color(0x14000000))
                     ) {
                         Text(
                             text = izreke[i],
@@ -80,6 +79,7 @@ fun IzrekeEkran() {
             }
 
         }
+    }
 
 
     }
