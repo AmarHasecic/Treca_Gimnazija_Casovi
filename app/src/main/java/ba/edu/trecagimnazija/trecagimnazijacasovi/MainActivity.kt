@@ -42,13 +42,10 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
 @Composable
 fun BrojacScreen(){
 
-    var brojac: Int by remember { mutableStateOf(0) }
-    //var brojac by remember { mutableStateOf(0) }
-
+    var brojac by remember { mutableStateOf(0) }
 
     Box(
         modifier = Modifier.fillMaxSize(),
@@ -72,6 +69,7 @@ fun BrojacScreen(){
         Button(onClick = { brojac = 0 }) {
             Text(text = "Vrati broj na 0")
         }
+
     }
  }
 
