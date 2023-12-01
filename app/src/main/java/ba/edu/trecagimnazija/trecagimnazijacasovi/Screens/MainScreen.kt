@@ -1,6 +1,7 @@
 package ba.edu.trecagimnazija.trecagimnazijacasovi.Screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -15,6 +16,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.painterResource
@@ -38,8 +41,40 @@ fun MainScreen(){
         //Opis kuće
         Box(
             modifier = Modifier.height(screenHeightInDp / 2)
-                .width(screenWidthInDp / 2)
+                .width(screenWidthInDp)
+                .background(color = Color.Black)
         ) {
+            if(broj == 1){
+                Image(
+                    painter = painterResource(id = R.drawable.hufflefpuff_desc),
+                    contentDescription = "Slika kuće Hufflepuff",
+                    modifier = Modifier.fillMaxSize()
+                )
+            }
+            else if(broj == 2){
+                Image(
+                    painter = painterResource(id = R.drawable.slytherin_desc),
+                    contentDescription = "Slika kuće Hufflepuff",
+                    modifier = Modifier.fillMaxSize()
+                )
+
+            }
+            else if(broj == 3){
+                Image(
+                    painter = painterResource(id = R.drawable.gryffindor_desc),
+                    contentDescription = "Slika kuće Griffindor",
+                    modifier = Modifier.fillMaxSize()
+                )
+
+            }
+            else if(broj == 4){
+                Image(
+                    painter = painterResource(id = R.drawable.ravenclaw_desc),
+                    contentDescription = "Slika kuće Hufflepuff",
+                    modifier = Modifier.fillMaxSize()
+                )
+
+            }
 
         }
 
@@ -61,6 +96,7 @@ fun MainScreen(){
                         painter = painterResource(id = R.drawable.hufflepuff),
                         contentDescription = "Hufflepuff",
                         modifier = Modifier.fillMaxSize()
+                            .scale(2f)
                     )
                 }
 
@@ -75,6 +111,8 @@ fun MainScreen(){
                     Image(
                         painter = painterResource(id = R.drawable.slytherin),
                         contentDescription = "Slytherin",
+                        modifier = Modifier.fillMaxSize()
+                            .scale(2f)
                     )
                 }
             }
@@ -92,6 +130,7 @@ fun MainScreen(){
                         painter = painterResource(id = R.drawable.gryffindor),
                         contentDescription = "Gryffindor",
                         modifier = Modifier.fillMaxSize()
+                            .scale(2f)
                     )
                 }
 
@@ -106,11 +145,10 @@ fun MainScreen(){
                         painter = painterResource(id = R.drawable.ravenclaw),
                         contentDescription = "Ravenclaw",
                         modifier = Modifier.fillMaxSize()
+                            .scale(2f)
                     )
                 }
             }
-
-
         }
     }
 }
